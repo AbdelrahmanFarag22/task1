@@ -21,10 +21,11 @@ class Screen4 extends StatelessWidget {
               Container(
                 width: 70,
                   height: 70,
-                  child: const Image(image: AssetImage('assets/images/horse.jpg'),),),
+                  child: const Image(image: AssetImage('assets/images/netflix.png'),),),
+              const SizedBox(width: 15,),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Netflix'),
                   Text('today,25,June'),
                 ],
               ),
@@ -43,10 +44,10 @@ class Screen4 extends StatelessWidget {
               Container(
                 width: 70,
                 height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
+                child: Image(image: AssetImage('assets/images/spotify.png'),),),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Spotify'),
                   Text('today,25,June'),
                 ],
               ),
@@ -65,14 +66,15 @@ class Screen4 extends StatelessWidget {
               Container(
                 width: 70,
                 height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
+                child: const Image(image: AssetImage('assets/images/netflix.png'),),),
+              const SizedBox(width: 15,),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Netflix'),
                   Text('today,25,June'),
                 ],
               ),
-              Expanded(child: SizedBox(),),
+              const Expanded(child: SizedBox(),),
               const Column(
                 children: [
                   Text('- 220.00'),
@@ -87,10 +89,10 @@ class Screen4 extends StatelessWidget {
               Container(
                 width: 70,
                 height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
+                child: Image(image: AssetImage('assets/images/spotify.png'),),),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Spotify'),
                   Text('today,25,June'),
                 ],
               ),
@@ -110,10 +112,33 @@ class Screen4 extends StatelessWidget {
               Container(
                 width: 70,
                 height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
+                child: const Image(image: AssetImage('assets/images/netflix.png'),),),
+              const SizedBox(width: 15,),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Netflix'),
+                  Text('today,25,June'),
+                ],
+              ),
+              const Expanded(child: SizedBox(),),
+              const Column(
+                children: [
+                  Text('- 220.00'),
+                  Text('depit card'),
+                ],
+              ),
+
+            ],
+          ),
+          Row(
+            children: [
+              Container(
+                width: 70,
+                height: 70,
+                child: Image(image: AssetImage('assets/images/spotify.png'),),),
+              const Column(
+                children: [
+                  Text('Spotify'),
                   Text('today,25,June'),
                 ],
               ),
@@ -132,14 +157,15 @@ class Screen4 extends StatelessWidget {
               Container(
                 width: 70,
                 height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
+                child: const Image(image: AssetImage('assets/images/netflix.png'),),),
+              const SizedBox(width: 15,),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Netflix'),
                   Text('today,25,June'),
                 ],
               ),
-              Expanded(child: SizedBox(),),
+              const Expanded(child: SizedBox(),),
               const Column(
                 children: [
                   Text('- 220.00'),
@@ -149,42 +175,22 @@ class Screen4 extends StatelessWidget {
 
             ],
           ),
-          Row(
-            children: [
-              Container(
-                width: 70,
-                height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
-              const Column(
-                children: [
-                  Text('Apple Store'),
-                  Text('today,25,June'),
-                ],
-              ),
-              Expanded(child: SizedBox(),),
-              const Column(
-                children: [
-                  Text('- 220.00'),
-                  Text('depit card'),
-                ],
-              ),
 
-            ],
-          ),
           const Text('today,25,June'),
           Row(
             children: [
               Container(
                 width: 70,
                 height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
+                child: const Image(image: AssetImage('assets/images/netflix.png'),),),
+              const SizedBox(width: 15,),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Netflix'),
                   Text('today,25,June'),
                 ],
               ),
-              Expanded(child: SizedBox(),),
+              const Expanded(child: SizedBox(),),
               const Column(
                 children: [
                   Text('- 220.00'),
@@ -199,10 +205,10 @@ class Screen4 extends StatelessWidget {
               Container(
                 width: 70,
                 height: 70,
-                child: Image(image: AssetImage('assets/images/horse.jpg'),),),
+                child: Image(image: AssetImage('assets/images/spotify.png'),),),
               const Column(
                 children: [
-                  Text('Apple Store'),
+                  Text('Spotify'),
                   Text('today,25,June'),
                 ],
               ),
